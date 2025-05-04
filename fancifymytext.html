@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fancify My Text - dachen Assignment 5</title>
+  <script src="fancifymytext.js" defer></script>
+</head>
+<body>
+  <h1>Fancify My Text - dachen</h1>
+
+  <fieldset>
+    <legend>Text</legend>
+    <textarea id="text-area" rows="4" cols="30"></textarea>
+  </fieldset>
+
+  <fieldset>
+    <legend>Fancify</legend>
+    <button onclick="makeBigger()">Bigger!</button><br><br>
+
+    <input type="radio" id="fancy" name="style" onchange="fancifyText()">
+    <label for="fancy">FancyShmancy</label><br>
+
+    <input type="radio" id="boring" name="style" onchange="fancifyText()">
+    <label for="boring">BoringBetty</label><br><br>
+
+    <button onclick="mooify()">Moo</button>
+  </fieldset>
+</body>
+</html>
